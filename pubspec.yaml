@@ -1,0 +1,35 @@
+name: inventory_management
+description: A beginner-friendly Flutter Inventory Management app demonstrating core UI concepts.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Local images
+  assets:
+    - assets/images/
+
+  # Custom fonts
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/Lobster-Regular.ttf
